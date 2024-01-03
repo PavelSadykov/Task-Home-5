@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Битва между игроком и врагом</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <h1>Битва между игроком и врагом</h1>
+  
+  <div class="selections">
+    <div class="label-select">
+      <label for="playerHealth">Выберите количество жизней игрока:</label>
+      <select id="playerHealth">
+        <option value="100">100</option>
+        <option value="150">150</option>
+        <option value="200">200</option>
+      </select>
+    </div>
+
+    <div class="label-select">
+      <label for="playerDamage">Выберите количество урона игрока:</label>
+      <select id="playerDamage">
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+    </div>
+
+    <div class="label-select">
+      <label for="enemyHealth">Выберите количество жизней врага:</label>
+      <select id="enemyHealth">
+        <option value="100">100</option>
+        <option value="150">150</option>
+        <option value="200">200</option>
+      </select>
+    </div>
+
+    <div class="label-select">
+      <label for="enemyDamage">Выберите количество урона врага:</label>
+      <select id="enemyDamage">
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+    </div>
+  </div>
+
+
+  <button onclick="startBattle()">Начать битву</button>
+  
+  <script src="scripts/index.js"></script>
+</body>
+</html>
